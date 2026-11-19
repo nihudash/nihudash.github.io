@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nature and wildlife photography by Nihar Ranjan Dash.">
+    <title>Photography Gallery | Nihar Ranjan Dash</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <nav class="nav container">
+        <a class="brand" href="index.html">NRD<span>.</span></a>
+
+        <button class="menu-toggle" aria-label="Toggle navigation"
+                aria-expanded="false">☰</button>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="experience.html">Experience</a>
+            <a href="activities.html">Activities</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a class="nav-cv" href="Nihar_Ranjan_Dash_CV.pdf"
+               target="_blank">Download CV ↗</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-heading">
+    <div class="container">
+        <p class="eyebrow">BEYOND RESEARCH</p>
+        <h1>Photography Gallery</h1>
+        <p>
+            A collection of moments from nature, wildlife, birds,
+            flowers and landscapes captured through my camera.
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="gallery-category">
+            <h2>Birds</h2>
+            <div class="photo-grid">
+
+                <figure class="photo-card">
+                    <a href="assets/gallery/bird-01.jpg" target="_blank">
+                        <img src="assets/gallery/bird-01.jpg"
+                             alt="Bird photography">
+                    </a>
+                    <figcaption>Birds in their natural habitat</figcaption>
+                </figure>
+
+                <figure class="photo-card">
+                    <a href="assets/gallery/bird-02.jpg" target="_blank">
+                        <img src="assets/gallery/bird-02.jpg"
+                             alt="A beautiful bird">
+                    </a>
+                    <figcaption>A moment in nature</figcaption>
+                </figure>
+
+            </div>
+        </div>
+
+        <div class="gallery-category">
+            <h2>Wildlife and Animals</h2>
+            <div class="photo-grid">
+
+                <figure class="photo-card">
+                    <a href="assets/gallery/animal-01.jpg" target="_blank">
+                        <img src="assets/gallery/animal-01.jpg"
+                             alt="Wildlife photography">
+                    </a>
+                    <figcaption>Wildlife moments</figcaption>
+                </figure>
+
+            </div>
+        </div>
+
+        <div class="gallery-category">
+            <h2>Flowers and Nature</h2>
+            <div class="photo-grid">
+
+                <figure class="photo-card">
+                    <a href="assets/gallery/flower-01.jpg" target="_blank">
+                        <img src="assets/gallery/flower-01.jpg"
+                             alt="Flower photography">
+                    </a>
+                    <figcaption>Colours of nature</figcaption>
+                </figure>
+
+                <figure class="photo-card">
+                    <a href="assets/gallery/nature-01.jpg" target="_blank">
+                        <img src="assets/gallery/nature-01.jpg"
+                             alt="Nature photography">
+                    </a>
+                    <figcaption>Details of the natural world</figcaption>
+                </figure>
+
+            </div>
+        </div>
+
+        <div class="gallery-category">
+            <h2>Landscapes and Sunsets</h2>
+            <div class="photo-grid">
+
+                <figure class="photo-card">
+                    <a href="assets/gallery/sunset-01.jpg" target="_blank">
+                        <img src="assets/gallery/sunset-01.jpg"
+                             alt="Sunset landscape">
+                    </a>
+                    <figcaption>Moments at sunset</figcaption>
+                </figure>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <span>© <span id="year"></span> Nihar Ranjan Dash</span>
+        <a href="index.html">Home</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
