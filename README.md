@@ -1,24 +1,23 @@
-# Nihar Ranjan Dash — Academic Website
+# Nihar Ranjan Dash — Multi-page academic website
 
-A responsive academic personal website built with plain HTML, CSS and JavaScript.
+This package separates the existing academic website into individual pages while retaining its visual style, content, portrait, and CV.
 
-## Files
-- `index.html` — website content
-- `styles.css` — layout and visual design
-- `script.js` — mobile navigation and current year
-- `assets/profile.jpg` — supplied profile photograph
-- `Nihar_Ranjan_Dash_CV.pdf` — supplied CV, linked from the site
+## Pages
+- `index.html` — Home
+- `about.html` — About
+- `research.html` — Research interests
+- `publications.html` — Journal articles and preprints
+- `experience.html` — Experience and education
+- `activities.html` — Talks, conferences, reviewing and awards
+- `contact.html` — Contact
 
-## Publish with GitHub Pages
-1. Sign in to GitHub and create a **new public repository**. A convenient repository name is `your-github-username.github.io` (replace with your actual username).
-2. Upload all files and folders in this package to the repository's root. Keep the `assets` folder.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch **main** and folder **/(root)**, then save.
-6. After GitHub Pages finishes publishing, your site will be available at `https://your-github-username.github.io/`.
+## Publish the update
+1. Extract this ZIP on your computer.
+2. Open https://github.com/nihudash/nihudash.github.io.
+3. Upload the contents of this folder to the repository root.
+4. Replace the existing `index.html`, `styles.css`, and `script.js` when prompted.
+5. Add the six new HTML pages and the `assets` folder containing `profile.JPG`.
+6. Keep `Nihar_Ranjan_Dash_CV.pdf` in the repository root.
+7. Commit to `main`, wait for the GitHub Pages Actions deployment to show a green tick, then visit https://nihudash.github.io/.
 
-## Before publishing
-- Check that the CV is the version you want to make public.
-- The email address and publication metadata are taken from the supplied CV. Confirm the DOI links before publishing.
-- Add your Google Scholar, ORCID, LinkedIn, and GitHub profile URLs if you want them displayed. They were not included in the supplied CV, so no profile links have been guessed.
-- The December 8–12, 2026 research visit is labelled as upcoming because that date is in the future relative to the current date.
+The portrait path is `assets/profile.JPG` (capital JPG). Keep the filename and capitalization exactly as shown.
